@@ -1,0 +1,15 @@
+{
+  "name": "ws-playground",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "supernoir <kawohl.bentodesign@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+      "start": "nodemon index.js"
+},
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1",
+    "ws": "^3.3.2"
+  }
+}
