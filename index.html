@@ -8,6 +8,14 @@
         <script src="http://localhost:9922/socket.io/socket.io.js"></script>
         <script>
         var socket = io('http://localhost:9922')
+socket.on('message-from-server', function(event){
+document.body.appendChild(
+document.createTextNode(event.greeting))
+
+socket.emit('message-from-client', {
+greeting: 'Ni hao from client'
+})
+})
         </script>
     </body>
 </html>
