@@ -5,11 +5,12 @@
   "author": "supernoir <kawohl.bentodesign@gmail.com>",
   "license": "MIT",
   "scripts": {
-      "start": "nodemon index.js"
-},
+    "start": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.16.2",
     "nodemon": "^1.12.1",
+    "socket.io": "^2.0.4",
     "ws": "^3.3.2"
   }
 }
