@@ -11,14 +11,14 @@ io.on('connection', function(socket) {
   console.log('New Connection established');
 
   socket.emit('message-from-server', {
-    greeting: 'Hello from Server',
+    greeting: 'Hello from Server'
   });
 
   socket.on('message-from-client', function(msg) {
     console.log(msg);
   });
 });
+
 server.listen(port, function() {
   console.log(`Listening on port ${port}`);
 });
-
